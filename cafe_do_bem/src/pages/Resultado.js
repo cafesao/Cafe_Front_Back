@@ -5,6 +5,8 @@ import './Resultado.css'
 
 import api from '../service/api'
 
+import logo from '../assets/_logo.png'
+
 export default function Resultado({ match }) {
     const [cafe, setCafe] = useState('')
 
@@ -25,6 +27,9 @@ export default function Resultado({ match }) {
 
     return (
         <div className='resultado_container'>
+            <Link to='/'>
+                <img src={logo} alt='Café do Bem' />
+            </Link>
             <div className='atributos_container'>
                 <h3>Nome: </h3>
                 <p><strong>{capitalize(cafe.nome)}</strong></p>    

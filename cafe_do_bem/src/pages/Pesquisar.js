@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 
 import './Pesquisar.css'
 
+import logo from '../assets/_logo.png'
+
 export default function Pesquisar({ history }) {
     const [cafe, setCafe] = useState('')
 
@@ -14,6 +16,7 @@ export default function Pesquisar({ history }) {
     return (
         <div className='pesquisar_container'>
             <form onSubmit={apertarPesquisar}>
+                <img src={logo} alt='Café do Bem' />
                 <input 
                     placeholder='Digite o nome do cafe'
                     value={cafe}
