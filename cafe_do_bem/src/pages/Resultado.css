@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Montserrat&display=swap');
+
+.resultado_container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.resultado_container img {
+    max-width: 100%;
+}
+
+.resultado_container h3 {
+    font-family: 'IM Fell Great Primer SC', serif;
+    padding-top: 25px;
+    font-size: 30px;
+    color: #843216;
+}
+
+.resultado_container p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    color: #462A1E;
+}
+
+.erro h2 {
+    font-family: 'IM Fell Great Primer SC', serif;
+    padding-top: 50px;
+    font-size: 50px;
+    color: #843216;
+}
+
+.erro p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5px;
+    color: rgb(200, 200, 200);
+}

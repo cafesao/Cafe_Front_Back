@@ -10,7 +10,12 @@ export default function Pesquisar({ history }) {
     async function apertarPesquisar(e) {
         e.preventDefault()
 
-        history.push(`/cafe/${cafe}`)
+        if(cafe) {
+            history.push(`/cafe/${cafe}`)
+        }
+        else {
+            alert('Por favor, insira o nome do café')
+        }
     }
 
     return (
@@ -21,6 +26,7 @@ export default function Pesquisar({ history }) {
                     placeholder='Digite o nome do cafe'
                     value={cafe}
                     onChange={e => setCafe(e.target.value)}
+                    autoFocus
                 />
                 <button type='submit'>Pesquisar</button>
             </form>
