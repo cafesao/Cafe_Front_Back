@@ -61,7 +61,7 @@ export default function Resultado({ match }) {
 
                 <div className='altitude_container'>
                     <h3>Altitude</h3>
-                    <p>{cafe.atitude}</p>    
+                    <p>{cafe.altitude}</p>    
                 </div> 
 
                 <div className='lavoura_container'>

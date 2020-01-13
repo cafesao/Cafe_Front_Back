@@ -44,7 +44,7 @@ const CafeSchema = new Schema({
         required: false,
         default: 'Arábica'
     },
-    atitude: {
+    altitude: {
         type: String,
         required: false,
         default: '800 - 1400m'
