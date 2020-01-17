@@ -6,7 +6,7 @@ const routes = require('./routes/routes')
 
 const api = express()
 
-mongoose.connect('mongodb://localhost:27017/', {
+mongoose.connect('[COLOCAR SEU BANCO DE DADOS MONGODB]', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })

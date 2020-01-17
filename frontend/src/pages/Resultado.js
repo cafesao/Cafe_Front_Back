@@ -25,7 +25,7 @@ export default function Resultado({ match }) {
         }     
 
         pesquisarApi()
-    }, [])
+    }, [match.params.nome])
 
     function capitalize (s) {
         if (typeof s === 'string') return s.charAt(0).toUpperCase() + s.slice(1) 

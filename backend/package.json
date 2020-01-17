@@ -1,7 +1,7 @@
 {
   "name": "cafe_front_back",
   "version": "1.0.0",
-  "main": "./server/api.js",
+  "main": "api.js",
   "repository": "https://github.com/cafesao/Cafe_Front_Back.git",
   "author": "cafesao <gabriel.diasdutra2@gmail.com>",
   "license": "MIT",
