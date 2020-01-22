@@ -38,7 +38,7 @@ export default function Pesquisar({ navigation }) {
         <SafeAreaView style={style.container}>
             <Image source={logo}/>
             {cafe ? (
-                <ScrollView style={style.scroll}>
+                <ScrollView>
                     <View style={style.container}>
                         <Text style={style.resultadoNome}>Nome</Text>
                         <Text style={style.resultadoInfoStrong}>{capitalize(cafe.nome)}</Text>
@@ -97,9 +97,6 @@ const style = StyleSheet.create({
         backgroundColor: '#f5f5f5',
         alignItems: 'center',
         marginHorizontal: 10
-    },
-    scroll: {
-
     },
     resultadoNome: {
         fontFamily: 'IMFellGreatPrimerSC-Regular',
