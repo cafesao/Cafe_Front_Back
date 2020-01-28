@@ -7,8 +7,8 @@ const routes = require('./routes/routes')
 const api = express()
 
 mongoose.connect('[COLOCAR SEU BANCO DE DADOS MONGODB]', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 })
 
 api.use(cors())
